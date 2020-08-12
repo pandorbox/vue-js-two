@@ -20,7 +20,8 @@ export default class LData extends BaseData {
     super();
   }
   async getBaseData() {
-    let res = await this.call.request(this.api.Kecheng.getNoticList());
+    let res = await this.call.request(this.api);
     console.log("res:", res);
+    return res;
   }
 }
