@@ -1,4 +1,4 @@
-import BaseData, { BParam, BData } from "@qjk/vue-core/src/core/base/BaseData";
+import BaseData, { BParam, BData } from "@/core/base/BaseData.js";
 
 export class Data extends BData {
   constructor() {
@@ -20,7 +20,7 @@ export default class LData extends BaseData {
     super();
   }
   async getBaseData() {
-    let res = await this.call.request(this.api.Kecheng.getNoticList());
+    let res = await this.call.request(this.api.Account.login());
     console.log("res:", res);
   }
 }

@@ -1,5 +1,5 @@
 import LData from "./LData";
-import BaseLogic, { Data as BaseData } from "@qjk/vue-core/src/core/base/BaseLogic";
+import BaseLogic, { Data as BaseData } from "@/core/base/BaseLogic";
 
 export class Data extends BaseData {
   bool;
