@@ -16,7 +16,7 @@
 <script>
 import { Vue, Component, Mixins } from "vue-property-decorator";
 import Logic from "./Logic";
-import BaseVue from "@/core/base/BaseVue";
+import BaseVue from "@qjk/vue-core/src/core/base/BaseVue";
 
 @Component({})
 export default class Index extends Mixins(BaseVue) {
